@@ -1,7 +1,7 @@
 ---
 title: My Third Blog Post
-date: '2020-10-10T12:00:00.00Z'
-description: 'Dolor inventore quasi necessitatibus odio eaque doloribus'
+date: "2020-10-10T12:00:00.00Z"
+description: "Dolor inventore quasi necessitatibus odio eaque doloribus"
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -47,12 +47,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inve
 Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.
 
 ```js
-const helloWorld = (name = 'World') => {
+const helloWorld = (name = "World") => {
   return `Hello ${name}!`;
 };
 
 helloWorld();
-helloWorld('John Doe');
+helloWorld("John Doe");
 ```
 
 Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!

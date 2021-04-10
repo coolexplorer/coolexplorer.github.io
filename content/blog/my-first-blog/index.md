@@ -1,7 +1,7 @@
 ---
 title: My First Blog Post
-date: '2020-09-20T12:00:00.00Z'
-description: 'Ducimus perferendis porro cumque ea error ab voluptatem'
+date: "2020-09-20T12:00:00.00Z"
+description: "Ducimus perferendis porro cumque ea error ab voluptatem"
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -47,12 +47,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inve
 Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.
 
 ```js
-const helloWorld = (name = 'World') => {
+const helloWorld = (name = "World") => {
   return `Hello ${name}!`;
 };
 
 helloWorld();
-helloWorld('John Doe');
+helloWorld("John Doe");
 ```
 
 Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!

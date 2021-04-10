@@ -1,22 +1,22 @@
-import { graphql } from 'gatsby';
-import get from 'lodash/get';
-import React from 'react';
+import { graphql } from "gatsby";
+import get from "lodash/get";
+import React from "react";
 
-import Header from '../components/header';
-import Layout from '../components/layout';
-import SectionAbout from '../components/section-about';
-import SectionBlog from '../components/section-blog';
-import SectionExperience from '../components/section-experience';
-import SectionProjects from '../components/section-projects';
-import SectionSkills from '../components/section-skills';
-import SEO from '../components/seo';
+import Header from "../components/header";
+import Layout from "../components/layout";
+import SectionAbout from "../components/section-about";
+import SectionBlog from "../components/section-blog";
+import SectionExperience from "../components/section-experience";
+import SectionProjects from "../components/section-projects";
+import SectionSkills from "../components/section-skills";
+import SEO from "../components/seo";
 
 const Index = ({ data }) => {
-  const about = get(data, 'site.siteMetadata.about', false);
-  const projects = get(data, 'site.siteMetadata.projects', false);
+  const about = get(data, "site.siteMetadata.about", false);
+  const projects = get(data, "site.siteMetadata.projects", false);
   const posts = data.allMarkdownRemark.edges;
-  const experience = get(data, 'site.siteMetadata.experience', false);
-  const skills = get(data, 'site.siteMetadata.skills', false);
+  const experience = get(data, "site.siteMetadata.experience", false);
+  const skills = get(data, "site.siteMetadata.skills", false);
   const noBlog = !posts || !posts.length;
 
   return (

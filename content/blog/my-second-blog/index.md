@@ -1,7 +1,7 @@
 ---
 title: My Second Blog Post
-date: '2020-10-02T12:00:00.00Z'
-description: 'Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat'
+date: "2020-10-02T12:00:00.00Z"
+description: "Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat"
 ---
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -47,12 +47,12 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inve
 Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.
 
 ```js
-const helloWorld = (name = 'World') => {
+const helloWorld = (name = "World") => {
   return `Hello ${name}!`;
 };
 
 helloWorld();
-helloWorld('John Doe');
+helloWorld("John Doe");
 ```
 
 Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!

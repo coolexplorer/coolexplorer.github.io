@@ -3,7 +3,7 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://github.com/coolexplorer/coolexplorer.github.io`,
     // Your Name
-    name: 'Allen Seunghwan Kim',
+    name: "Allen Seunghwan Kim",
     // Main Site Title
     title: `Allen Kim | Software Quality Engineer & DevOps`,
     // Description that goes under your name in main bio
@@ -19,73 +19,71 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Load Test (Performace Test)',
+        name: "Load Test (Performace Test)",
         description:
-          'Game server load test to get the high reliability and availability',
-        link: '',
+          "Game server load test to get the high reliability and availability",
+        link: "",
       },
       {
-        name: 'Test Automation - Client and Server Automation',
+        name: "Test Automation - Client and Server Automation",
         description:
-          'Test Automation Script implementation and Setting up the environment',
-        link: '',
+          "Test Automation Script implementation and Setting up the environment",
+        link: "",
       },
       {
-        name: 'Cluster for Software Quality Tools',
+        name: "Cluster for Software Quality Tools",
         description:
-          'Kubernetest environment to manage the Automation Tools for Software Quality Engineer',
-        link: '',
+          "Kubernetest environment to manage the Automation Tools for Software Quality Engineer",
+        link: "",
       },
       {
-        name: 'kube-consul-registrator',
+        name: "kube-consul-registrator",
         description:
-          'Registering Microservice information to Consul in the Kubernetes',
-        link: '',
+          "Registering Microservice information to Consul in the Kubernetes",
+        link: "",
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Electornic Arts',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://www.ea.com',
+        name: "Electornic Arts",
+        description: "Full-Stack Developer, February 2020 - Present",
+        link: "https://www.ea.com",
       },
       {
-        name: 'Kohyoung Technology',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://www.kohyoung.com',
+        name: "Kohyoung Technology",
+        description: "Full-Stack Developer, December 2017 - February 2020",
+        link: "https://www.kohyoung.com",
       },
       {
-        name: 'Samsung Electronics',
-        description: 'Software Engineer, March 2006 - May 2015',
-        link: 'https://www.samsung.com/us/aboutsamsung/home/',
+        name: "Samsung Electronics",
+        description: "Software Engineer, March 2006 - May 2015",
+        link: "https://www.samsung.com/us/aboutsamsung/home/",
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: "Languages & Frameworks",
         description:
-          'Python, Scala, Groovy, C#, dotnet, Java | Gatling, Akka, BDD(Serenity)',
+          "Python, Scala, Groovy, C#, dotnet, Java | Gatling, Akka, BDD(Serenity)",
       },
       {
-        name: 'Test Automation - CI/CD',
-        description: 'Jenkins, Gitlab CI, Ansible',
+        name: "Test Automation - CI/CD",
+        description: "Jenkins, Gitlab CI, Ansible",
       },
       {
-        name: 'Cluster Environment',
-        description:
-          'Kubernetes, Rancher, GitOps(Fleet), Helm',
+        name: "Cluster Environment",
+        description: "Kubernetes, Rancher, GitOps(Fleet), Helm",
       },
       {
-        name: 'Monitoring & Database',
+        name: "Monitoring & Database",
         description:
-          'Grafana, Prometheus, Influxdb, Zabbix, Elasticsearch, Logstash, Kibana, Telegraf, PostgreSQL, MongoDB',
+          "Grafana, Prometheus, Influxdb, Zabbix, Elasticsearch, Logstash, Kibana, Telegraf, PostgreSQL, MongoDB",
       },
       {
-        name: 'Others',
-        description:
-          'Git, Perforce, Jaas(Jira), Confluence, Slack',
+        name: "Others",
+        description: "Git, Perforce, Jaas(Jira), Confluence, Slack",
       },
     ],
   },
