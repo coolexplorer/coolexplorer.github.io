@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/coolexplorer.github.io",
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://github.com/coolexplorer/coolexplorer.github.io`,
