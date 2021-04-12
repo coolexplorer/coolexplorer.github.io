@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     pathPrefix: "/docs",
     // Site URL for when it goes live
-    siteUrl: `https://coolexplorer.github.io/public/`,
+    siteUrl: `https://coolexplorer.github.io`,
     // Your Name
     name: "Allen Seunghwan Kim",
     // Main Site Title
@@ -16,7 +16,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/allen-kim-132887124/`,
     // Content of the About Me section
-    about: `SQE for Various Functional and Non-Functional Automation (including Load Test (Performance Test), DevOps for Test Automation Environment`,
+    about: `SQE for Various Functional and Non-Functional Automation (including Load Test (Performance Test)), DevOps for Test Automation Environment`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -32,7 +32,7 @@ module.exports = {
         link: "",
       },
       {
-        name: "Cluster for Software Quality Tools",
+        name: "The Cluster for Software Quality Tools",
         description:
           "Kubernetest environment to manage the Automation Tools for Software Quality Engineer",
         link: "",
@@ -84,7 +84,7 @@ module.exports = {
       },
       {
         name: "Others",
-        description: "Git, Perforce, Jaas(Jira), Confluence, Slack",
+        description: "Git, Perforce, JaaS(Jira), Confluence, Slack",
       },
     ],
   },
